@@ -1,0 +1,371 @@
+{
+  "name" : "extpj3",
+  "fileSystem" : {
+    "type" : "Folder",
+    "name" : "",
+    "children" : { },
+    "path" : "",
+    "editable" : true
+  },
+  "providerType" : "databricks",
+  "prophecyIDEFolder" : {
+    "name" : "",
+    "children" : { },
+    "path" : "",
+    "editable" : true
+  },
+  "externalSources" : {
+    "type" : "Project",
+    "name" : "",
+    "children" : [ {
+      "type" : "Catalog",
+      "name" : "hive_metastore",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "kaustubh",
+      "children" : [ {
+        "type" : "Schema",
+        "name" : "default",
+        "tables" : {
+          "frger" : {
+            "entityType" : "TABLE",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "a",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "b",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "c",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "1",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "3",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "4",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "5",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "6",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "table_100m" : {
+            "entityType" : "TABLE",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "customer_id",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "phone_number",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "device_id",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "email2",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "plan",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "mode",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "sample_text",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "event_type",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "minutes",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "bytes_transferred",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "event_ts",
+              "dataType" : {
+                "type" : "Timestamp"
+              }
+            }, {
+              "name" : "message_count",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "ld_minutes",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "local_minutes",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "intl_minutes",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "customer_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "email",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "internet_cost",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "ld_cost",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "local_cost",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "intl_cost",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "sms_cost",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "total_invoice",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "plan_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            }, {
+              "name" : "plan_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "cost_per_mb",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "cost_per_message",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "cost_per_minute",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "ld_cost_per_minute",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "intl_cost_per_minute",
+              "dataType" : {
+                "type" : "Decimal"
+              }
+            }, {
+              "name" : "category",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "id",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "dwefhbregjhebr" : {
+            "entityType" : "TABLE",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "a",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "b",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "c",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          },
+          "report_table" : {
+            "entityType" : "TABLE",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "full_name",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "amount",
+              "dataType" : {
+                "type" : "Bigint"
+              }
+            }, {
+              "name" : "customer_id",
+              "dataType" : {
+                "type" : "Integer"
+              }
+            } ]
+          },
+          "dnrgierni" : {
+            "entityType" : "TABLE",
+            "providerType" : "Databricks",
+            "fields" : [ {
+              "name" : "a",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "b",
+              "dataType" : {
+                "type" : "String"
+              }
+            }, {
+              "name" : "c",
+              "dataType" : {
+                "type" : "String"
+              }
+            } ]
+          }
+        }
+      }, {
+        "type" : "Schema",
+        "name" : "information_schema",
+        "children" : [ ]
+      }, {
+        "type" : "Schema",
+        "name" : "newschema",
+        "children" : [ ]
+      } ]
+    }, {
+      "type" : "Catalog",
+      "name" : "maciej",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "main",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "newcata_1",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "qa-team",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "qa_performance",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "samples",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "sony",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "system",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "testcata",
+      "children" : [ ]
+    }, {
+      "type" : "Catalog",
+      "name" : "uw2_share",
+      "children" : [ ]
+    } ]
+  },
+  "dependenciesContainer" : {
+    "dependencies" : { },
+    "prophecyProjectDependencies" : {
+      "https://github.com/prophecy-io/databricks-sql-basics" : "71",
+      "https://github.com/prophecy-io/databricks-sql-spatial" : "108"
+    }
+  },
+  "entitiesToSync" : [ {
+    "name" : "hjkb",
+    "type" : "Model",
+    "syncedOnce" : false
+  } ],
+  "frontEndLanguage" : "sql"
+}

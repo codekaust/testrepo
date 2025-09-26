@@ -1,0 +1,146 @@
+name: extpj3
+description: ''
+version: 0.0.1
+author: kaustubh@prophecy.io
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs:
+  jobs/doiwghueirhgwr:
+    name: doiwghueirhgwr
+    description: ''
+    fabricUID: 20
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: null
+    scheduleCron: None
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines: []
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: null
+    createdAt: '2025-09-26 09:31:50'
+    author: kaustubh@prophecy.io
+    models: []
+    sqlProjects: []
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-26 09:27:47'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/hjkb:
+    name: hjkb
+    schema:
+      entityType: ''
+      providerType: Databricks
+      fields:
+      - name: full_name
+        dataType:
+          type: String
+      - name: amount
+        dataType:
+          type: Bigint
+      - name: customer_id
+        dataType:
+          type: Integer
+    description: null
+    author: kaustubh@prophecy.io
+    files:
+    - models/hjkb.sql
+    - .prophecy/ide/models/hjkb.json
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-09-26 09:39:44'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/generate_schema_name:
+    name: generate_schema_name
+    macroType: expression
+    description: null
+    author: kaustubh@prophecy.io
+    files:
+    - macros/generate_schema_name.sql
+    - .prophecy/ide/macros/generate_schema_name.json
+    createdAt: '2025-09-26 09:29:54'
+sqlSeeds: {}
+sqlSources:
+  .prophecy/metadata/sqlsources/kaustubh_default:
+    name: kaustubh.default
+    description: null
+    author: kaustubh@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2025-09-26 09:40:02'
+    tables:
+    - name: report_table
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: full_name
+          dataType:
+            type: String
+        - name: amount
+          dataType:
+            type: Bigint
+        - name: customer_id
+          dataType:
+            type: Integer
+      description: null
+      author: kaustubh@prophecy.io
+      createdAt: '2025-09-26 09:40:02'
+      tableType: table
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: kaustubh@prophecy.io
+  createdAt: '2025-09-26 09:27:47'
+dependencies: []
+projectDependencies:
+  '71':
+    projectUID: 71
+    projectName: ProphecyDatabricksSqlBasics
+    repositoryPath: gitUri=https://github.com/prophecy-io/databricks-sql-basics&subPath=
+    version: 0.0.12
+    isDefault: false
+    author: null
+    createdAt: '2025-09-26 09:24:54'
+  '108':
+    projectUID: 108
+    projectName: ProphecyDatabricksSqlSpatial
+    repositoryPath: gitUri=https://github.com/prophecy-io/databricks-sql-spatial&subPath=
+    version: 0.0.4
+    isDefault: false
+    author: null
+    createdAt: '2025-09-26 09:24:54'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: false
+pipelineConfigurations: {}
+projectConfigurations: {}

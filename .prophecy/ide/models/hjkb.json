@@ -1,0 +1,85 @@
+{
+  "id" : "hjkb",
+  "metainfo" : {
+    "label" : "hjkb",
+    "autoLayout" : false,
+    "staleState" : "none",
+    "sourceSuggestions" : {
+      "sources" : [ ]
+    },
+    "version" : 3
+  },
+  "processes" : {
+    "hjkb##MsS4il5i" : {
+      "id" : "hjkb##MsS4il5i",
+      "component" : "TargetModel",
+      "metadata" : {
+        "label" : "hjkb",
+        "x" : 20,
+        "y" : 20,
+        "phase" : 0,
+        "macroDependencies" : [ ]
+      },
+      "properties" : {
+        "customQueryDisabled" : true,
+        "customQuery" : false,
+        "incrementalEditorDisabled" : true,
+        "query" : "SELECT * \n\nFROM report_table\n",
+        "isModel" : true,
+        "incrementalKey" : false,
+        "incremental" : {
+          "expression" : "true"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "dK1rOTbk",
+          "slug" : "report_table"
+        } ],
+        "outputs" : [ {
+          "id" : "BE9lqTuc",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    },
+    "_mcnELDY_5Vitb4PEVm_b" : {
+      "id" : "_mcnELDY_5Vitb4PEVm_b",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "report_table",
+        "slug" : "report_table",
+        "x" : -280,
+        "y" : -140,
+        "phase" : 0
+      },
+      "properties" : {
+        "table" : {
+          "name" : "report_table",
+          "sourceType" : "Source",
+          "sourceName" : "kaustubh.default",
+          "alias" : "",
+          "additionalProperties" : null
+        }
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "82I3FyHfmROztsdiJwrwA",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      }
+    }
+  },
+  "connections" : [ {
+    "id" : "zidTEU9YFAMBSmDVH6hux",
+    "source" : "_mcnELDY_5Vitb4PEVm_b",
+    "sourcePort" : "82I3FyHfmROztsdiJwrwA",
+    "target" : "hjkb##MsS4il5i",
+    "targetPort" : "dK1rOTbk"
+  } ],
+  "component" : "Model"
+}

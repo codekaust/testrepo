@@ -1,0 +1,105 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "20",
+    "jobId" : "jobs/doiwghueirhgwr",
+    "name" : "doiwghueirhgwr",
+    "schedule" : "None",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "prophecy_internal_jobs",
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    }
+  },
+  "processes" : {
+    "NCNh_3VR9EHt7vkJzeGLX$$7hbWodp4gZoxjEtdPYqr5" : {
+      "id" : "NCNh_3VR9EHt7vkJzeGLX$$7hbWodp4gZoxjEtdPYqr5",
+      "component" : "Model",
+      "metadata" : {
+        "label" : "Model_0",
+        "slug" : "Model_0",
+        "x" : -280,
+        "y" : -280
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "NVfWe_7Bl0dB4COm8NfiH$$lCAKV-FArZ5ppDQQW4YDW",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "qZOQnEpgCXI1rt9RMF3ls$$qMI5pSKabg5au6ZVfOT5x",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "retries" : 0,
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false
+        },
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "entityId" : "143/.prophecy/metadata/sqlmodels/model1",
+        "execSeed" : true,
+        "execRun" : false,
+        "gitEntity" : "tag",
+        "projectId" : "143",
+        "runOnlyModel" : "true",
+        "loadingModels" : false,
+        "entityName" : "model1",
+        "gitEntityValueTag" : "ExtPj2/0.0.2",
+        "profile" : "run_profile",
+        "sqlFabricId" : "20",
+        "gitEntityValue" : "ExtPj2/0.0.2",
+        "execDeps" : false,
+        "gitEntityValueCommit" : null,
+        "sqlProjectType" : "databricks",
+        "gitEntityValueBranch" : null,
+        "execTest" : true,
+        "currentProjectModels" : [ {
+          "label" : "model1",
+          "value" : "model1",
+          "id" : "143/.prophecy/metadata/sqlmodels/model1",
+          "name" : "model1"
+        } ],
+        "entityKind" : "model"
+      },
+      "conditional" : {
+        "runIf" : "ALL_SUCCESS",
+        "forEach" : false,
+        "forEachConfig" : "",
+        "forEachConcurrency" : 1,
+        "forEachInputVariable" : ""
+      },
+      "parent" : null
+    }
+  },
+  "connections" : [ ]
+}
